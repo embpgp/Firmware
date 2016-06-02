@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_8-2014q3/bin/arm-none-eabi-ar qc libmodules__land_detector.a  CMakeFiles/modules__land_detector.dir/land_detector_main.cpp.obj CMakeFiles/modules__land_detector.dir/LandDetector.cpp.obj CMakeFiles/modules__land_detector.dir/MulticopterLandDetector.cpp.obj CMakeFiles/modules__land_detector.dir/FixedwingLandDetector.cpp.obj CMakeFiles/modules__land_detector.dir/VtolLandDetector.cpp.obj
+/opt/gcc-arm-none-eabi-4_8-2014q3/bin/arm-none-eabi-ranlib libmodules__land_detector.a

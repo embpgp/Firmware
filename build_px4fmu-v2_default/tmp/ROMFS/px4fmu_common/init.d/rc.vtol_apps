@@ -1,0 +1,20 @@
+if param compare SYS_MC_EST_GROUP 0
+then
+	attitude_estimator_q start
+	position_estimator_inav start
+fi
+if param compare SYS_MC_EST_GROUP 1
+then
+	attitude_estimator_q start
+	local_position_estimator start
+fi
+if param compare SYS_MC_EST_GROUP 2
+then
+	ekf2 start
+fi
+vtol_att_control start
+mc_att_control start
+mc_pos_control start
+fw_att_control start
+fw_pos_control_l1 start
+land_detector start vtol

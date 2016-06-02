@@ -1,0 +1,2 @@
+/opt/gcc-arm-none-eabi-4_8-2014q3/bin/arm-none-eabi-ar qc libdrivers__meas_airspeed.a  CMakeFiles/drivers__meas_airspeed.dir/meas_airspeed.cpp.obj
+/opt/gcc-arm-none-eabi-4_8-2014q3/bin/arm-none-eabi-ranlib libdrivers__meas_airspeed.a
